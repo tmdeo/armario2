@@ -1,0 +1,982 @@
+@charset "utf-8";
+
+/* maru font */
+
+.maru {
+  font-family: "MaruBuri-Regular";
+}
+
+.ramb {
+  font-family: "Rambla", sans-serif;
+}
+
+/* inner */
+
+.inner {
+  max-width: 1130px;
+  height: inherit;
+  margin: 0 auto;
+  letter-spacing: -0.2px;
+}
+
+/* 보아 작업(07 09)*/
+
+/* maru font */
+
+.maru {
+  font-family: "MaruBuri-Regular";
+}
+
+.ramb {
+  font-family: "Rambla", sans-serif;
+}
+
+/* inner */
+
+.inner {
+  max-width: 1130px;
+  height: inherit;
+  margin: 0 auto;
+  letter-spacing: -0.2px;
+}
+
+/*sub_tit */
+
+.sub_tit {
+  width: 100%;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  h1 {
+    font-size: 64px;
+    color: #f9f9f9;
+    font-weight: 700;
+  }
+
+  &.store {
+    background: url("../img/sub_tit1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &.event {
+    background: url("../img/sub_tit2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &.review {
+    background: url("../img/sub_tit3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* 메인 */
+#main {
+  background: #fff;
+  /* padding: 60px 0; */
+}
+
+.main {
+  width: 100%;
+  height: inherit;
+}
+
+/*main_head*/
+.main_head .swiper-container {
+  width: 100%;
+  height: 600px;
+}
+
+.main_head .swiper-container .swiper-slide {
+  background: url(../img/KakaoTalk_20210622_153204196_13.jpg) center center;
+  background-size: cover;
+}
+
+.main_head .swiper-container .swiper-slide .slideinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_head .swiper-container .swiper-slide h2 {
+  position: relative;
+  color: #fff;
+  font-size: 50px;
+  max-width: 500px;
+  padding-bottom: 20px;
+}
+
+.main_head .swiper-container .swiper-slide h2::before {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  content: "후기이벤트";
+  font-size: 13px;
+  display: block;
+  padding: 4px 6px;
+  background: #fff;
+  color: #000;
+}
+
+.main_head .swiper-container .swiper-slide p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 200;
+  max-width: 500px;
+  line-height: 160%;
+}
+
+.main_head .swiper-pagination-bullet {
+  width: 100px;
+  height: 4px;
+  display: inline-block;
+  border-radius: 0;
+  background: black;
+  opacity: 1;
+}
+
+.main_head .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: white;
+}
+
+.main .main_intro {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.main .main_intro h2 {
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+
+.main .main_intro .intro_box {
+  display: flex;
+}
+
+.main .main_intro .intro_box .intro_img {
+  width: 60%;
+  height: 800px;
+  background: url(../img/pexels-maria-orlova-4947752.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.main .main_intro .intro_box .intro_img span {
+  font-size: 35px;
+  color: #fff;
+  width: 30%;
+  display: block;
+  margin-left: 50px;
+}
+
+.main .main_intro .intro_box .intro_desc {
+  padding: 30px 60px;
+}
+
+.main .main_intro .intro_box .intro_desc h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.main .main_intro .intro_box .intro_desc span {
+  font-size: 15px;
+  line-height: 140%;
+  display: block;
+}
+
+.main .main_intro .intro_box .intro_desc .lastspan {
+  padding: 40px 0 20px 0;
+}
+
+.main .main_intro .intro_box .intro_desc p {
+  width: 100%;
+  line-height: 180%;
+}
+
+.main_cont {
+  width: 100%;
+  padding-bottom: 160px;
+}
+
+.main_cont .main_cont_img {
+  width: 100%;
+  height: 250px;
+  background: url(../img//KakaoTalk_20210622_153204196_18.jpg) center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.main_cont .main_cont_img span {
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main_cont .main_cont_desc {
+  padding: 60px 0;
+}
+
+.main_cont .main_cont_desc h3 {
+  font-size: 30px;
+  line-height: 140%;
+}
+
+.main_cont .main_cont_desc p {
+  font-size: 15px;
+  line-height: 160%;
+  padding-top: 30px;
+  width: 40%;
+}
+
+.main_cont .main_cont_desc p:last-child {
+  width: 30%;
+}
+
+.main_cont .swiper-container {
+  width: 100%;
+  height: 600px;
+}
+
+.main_cont .swiper-slide .main_cont_prd {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main_cont .swiper-slide .main_cont_prd::before {
+  content: "NEW";
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 5px;
+  background: rgb(128, 179, 176);
+  color: #fff;
+}
+
+.main_cont .swiper-slide .main_cont_prd .main_cont_prd_img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/KakaoTalk_20210601_161404305_02.png) center center;
+  background-size: cover;
+  display: block;
+}
+
+.main_cont .swiper-slide .main_cont_prd_desc {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  display: block;
+}
+
+.main_cont .swiper-button-next {
+  width: 25px;
+  height: 50px;
+  // border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(180deg);
+  background: url(../img/icon/nav.png);
+  background-size: cover;
+  display: block;
+  cursor: pointer;
+  z-index: 1000;
+}
+.main_cont .swiper-button-prev {
+  width: 25px;
+  height: 50px;
+  // border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../img/icon/nav.png);
+  background-size: cover;
+  display: block;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.main_cont .swiper-pagination-bullet {
+  width: 20%;
+  height: 4px;
+  display: inline-block;
+  border-radius: 0;
+  background: #ccc;
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .main_cont .swiper-pagination-bullet {
+    width: 18%;
+  }
+  .main_cont .swiper-pagination-bullet {
+    width: 12%;
+  }
+}
+.main_cont .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: black;
+}
+
+.main_cont
+  .swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0;
+}
+
+/* 리뷰 */
+#review {
+  width: 100%;
+  /* padding: 60px 0; */
+}
+
+.review {
+  width: 100%;
+}
+.review .review_title {
+  height: 500px;
+  background: url("../img/6.jpg") center center;
+  background-size: cover;
+}
+
+.review .review_title .inner {
+  display: flex;
+  align-items: center;
+}
+.review .review_title h2 {
+  font-family: Poppins;
+  font-size: 60px;
+  color: #fff;
+}
+.review .review_menu {
+  padding: 70px 0;
+}
+
+.review .review_menu h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 43px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+.review .review_menu ul li {
+  position: relative;
+  padding: 30px 0;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+}
+
+.review .review_menu ul li:last-child {
+  border-bottom: 0;
+}
+
+.review .review_menu ul li .more {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.review .review_menu ul li .review_img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  background: url(../img/KakaoTalk_20210622_153204196_18.jpg) center center;
+  background-size: cover;
+}
+
+.review .review_menu ul li .review_list {
+  padding: 30px;
+}
+
+.review .review_menu ul li strong {
+  display: block;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+#popup {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.popup_inner {
+  width: 70%;
+  height: 70%;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 80px 40px;
+}
+
+.popup .popup_left {
+  background: url(../img/9.jpg) center center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.popup .popup_right {
+  width: 50%;
+  padding: 0 30px;
+  overflow-y: scroll;
+}
+
+.popup .popup_right h4 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.popup .popup_right span {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.popup .popup_right p {
+  line-height: 150%;
+}
+
+.popup .popup_right .close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.popup .popup_right .close::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transform: rotate(45deg) translate(13px, 13px);
+}
+
+.popup .popup_right .close::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transform: rotate(-45deg) translate(-13px, 13px);
+}
+
+/*서비스*/
+#service {
+  width: 100%;
+}
+
+.service .service_title {
+  height: 500px;
+  background: url("../img/6.jpg") center center;
+  background-size: cover;
+}
+
+.service .service_title .inner {
+  display: flex;
+  align-items: center;
+}
+
+.service .service_title h2 {
+  font-family: Poppins;
+  font-size: 60px;
+  color: #fff;
+}
+
+.service .service_menu {
+  padding: 70px 0;
+}
+
+.service .service_menu .service_menu_title {
+  line-height: 200%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.service .service_menu .service_menu_title h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.service .service_menu .service_menu_title p {
+  font-size: 18px;
+  width: 50%;
+  text-align: center;
+}
+
+.service .service_menu .service_menu_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 200px;
+  /* grid-row-gap: 200px; */
+}
+
+.service .service_menu .service_menu_list li {
+  height: 650px;
+}
+
+.service .service_menu .service_menu_list li:nth-child(2n) {
+  margin-top: 300px;
+}
+
+.service .service_menu .service_menu_list li span {
+  width: 100%;
+  height: 75%;
+  display: block;
+}
+
+.service .service_menu .service_menu_list li:nth-of-type(1) span {
+  background: url(../img/pexels-maria-orlova-4947752.jpg) center center;
+  background-size: cover;
+}
+
+.service .service_menu .service_menu_list li:nth-of-type(2) span {
+  background: url(../img/pexels-photo-6400791.jpeg) center center;
+  background-size: cover;
+}
+
+.service .service_menu .service_menu_list li:nth-of-type(3) span {
+  background: url(../img/robert-gomez-YZ0WDjg4EFg-unsplash.jpg) center center;
+  background-size: cover;
+}
+
+.service .service_menu .service_menu_list li:nth-of-type(4) span {
+  background: url(../img/angelo-pantazis-SKKG0gSb4vM-unsplash.jpg) center center;
+  background-size: cover;
+}
+
+.service .service_menu .service_menu_list li .sml_txt {
+  padding: 30px 10px;
+}
+
+.service .service_menu .service_menu_list li .sml_txt h4 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.service .service_menu .service_menu_list li .sml_txt p {
+  font-size: 18px;
+}
+/* 이벤트 */
+
+#event {
+  margin: 0 auto;
+  height: auto;
+
+  .event_list_wrap {
+    width: 1130px;
+    margin: 70px auto;
+    overflow: hidden;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 43px;
+      text-align: center;
+    }
+  }
+
+  .event_list {
+    width: 101.83%;
+
+    li {
+      width: 31.5%;
+      height: 460px;
+      float: left;
+      margin-right: 1.83%;
+      margin-bottom: 1.83%;
+
+      a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+
+        .event_text_box dt {
+          font-size: 19px;
+          font-weight: 700;
+          margin: 16px 0 9px 0;
+        }
+      }
+    }
+  }
+}
+
+/* 스토어 */
+
+#store {
+  height: auto;
+
+  .map_wrap {
+    margin: 70px auto;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 43px;
+      text-align: center;
+    }
+
+    .map {
+      height: 600px;
+      width: 100%;
+      background: tan;
+    }
+  }
+
+  .map_info {
+    width: 100%;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      width: 100%;
+      border-top: 1px solid #000;
+      margin-bottom: 40px;
+
+      li {
+        border-bottom: 1px solid #ddd;
+
+        dl {
+          dt,
+          dd {
+            padding: 20px 0;
+          }
+
+          dt {
+            float: left;
+            width: 115.1px;
+            padding-left: 35px;
+
+            span {
+              position: relative;
+              font-weight: bold;
+
+              &::before {
+                content: "";
+                width: 19px;
+                height: 19px;
+                position: absolute;
+                top: 50%;
+                left: -35px;
+                transform: translatey(-50%);
+              }
+            }
+
+            .map_icon1::before {
+              background: url("../img/icon/map1.png");
+              background-size: cover;
+            }
+
+            .map_icon2::before {
+              background: url("../img/icon/map2.png");
+              background-size: cover;
+            }
+
+            .map_icon3::before {
+              background: url("../img/icon/map3.png");
+              background-size: cover;
+            }
+
+            .map_icon4::before {
+              background: url("../img/icon/map4.png");
+              background-size: cover;
+            }
+          }
+
+          dd {
+            float: right;
+            width: 979.9px;
+
+            p:nth-child(1) {
+              padding-bottom: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .qna_btn_wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 0 100px 0;
+
+    .qna_btn {
+      display: inline-block;
+      padding: 12px 35px;
+    }
+
+    .qna_btn1 {
+      margin-right: 7px;
+      background-color: #333;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    .qna_btn2 {
+      background-color: #fff;
+      border: 1px solid #333;
+
+      a {
+        color: #333;
+      }
+    }
+  }
+}
+
+/* 반응형 */
+
+@media (max-width: 1080px) {
+  .inner {
+    width: 86%;
+  }
+
+  .sub_tit h1 {
+    font-size: 52px;
+  }
+
+  .service .service_menu .service_menu_list {
+    display: inherit;
+
+    li {
+      .sml_txt {
+        h4 {
+          font-size: 20px;
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
+      &:nth-child(2n) {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  #event {
+    .event_list_wrap {
+      width: 100%;
+    }
+
+    .event_list li a .event_text_box {
+      dt {
+        font-size: 17px;
+      }
+
+      dd {
+        font-size: 14px;
+      }
+    }
+  }
+
+  #store {
+    .map_wrap .map {
+      height: 400px;
+    }
+
+    .map_info ul li dl {
+      dd {
+        width: 100%;
+      }
+
+      dt {
+        padding: 15px 0 0 0;
+      }
+
+      dd {
+        padding: 15px 0;
+      }
+
+      dt {
+        padding-left: 24px;
+
+        span::before {
+          width: 16px;
+          height: 16px;
+          left: -24px;
+        }
+      }
+    }
+  }
+
+  .main .main_intro .intro_box .intro_desc {
+    h3,
+    span {
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  .main_cont .main_cont_desc {
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      width: 60%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+
+      &:last-child {
+        width: 60%;
+      }
+    }
+  }
+
+  .main .main_intro .intro_box {
+    display: inherit;
+
+    .intro_img {
+      width: 100%;
+      height: 400px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .inner {
+    width: 90%;
+  }
+
+  .sub_tit {
+    height: 150px;
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+  .service .service_menu .service_menu_title p {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .popup {
+    display: inherit;
+    overflow-y: scroll;
+
+    .popup_left {
+      width: 100%;
+      height: 50%;
+    }
+
+    .popup_right {
+      width: 100%;
+      overflow-y: auto;
+      padding: 30px 0;
+    }
+  }
+
+  #event .event_list_wrap,
+  #store .map_wrap {
+    margin: 40px auto 40px auto;
+  }
+
+  #event .event_list_wrap h2,
+  #store .map_wrap h2 {
+    font-size: 20px;
+  }
+
+  #event .event_list li {
+    width: 48.17%;
+    height: 390px;
+
+    a .event_text_box dt {
+      font-size: 16px;
+    }
+  }
+
+  #store {
+    .map_wrap .map {
+      height: 300px;
+    }
+
+    .map_info h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .main_head .swiper-container .swiper-slide h2 {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .main_cont .main_cont_desc p {
+    font-size: 14px;
+  }
+
+  #event .event_list li {
+    width: 48.17%;
+    height: 320px;
+  }
+}
