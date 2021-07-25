@@ -4,6 +4,7 @@ import Event from "./components/pages/Event";
 import Review from "./components/pages/Review";
 import Service from "./components/pages/Service";
 import Store from "./components/pages/Store";
+import Modal from "./components/pages/Modal/Modal";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/review" exact component={Review} />
       <Route path="/service" exact component={Service} />
       <Route path="/store" exact component={Store} />
+      <Route path="/modal" exact component={Modal} />
     </Router>
   );
 }

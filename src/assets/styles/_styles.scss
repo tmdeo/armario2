@@ -115,11 +115,13 @@
   position: relative;
   color: #fff;
   font-size: 50px;
-  max-width: 500px;
+  // max-width: 600px;
   padding-bottom: 20px;
 }
-
-.main_head .swiper-container .swiper-slide h2::before {
+// .main_head .swiper-container .swiper-slide h2:last-of-type {
+//   text-align: right;
+// }
+.main_head .swiper-container .swiper-slide h2.h2tag::before {
   position: absolute;
   top: -40px;
   left: 0;
@@ -137,6 +139,7 @@
   font-weight: 200;
   max-width: 500px;
   line-height: 160%;
+  text-decoration: underline;
 }
 
 .main_head .swiper-pagination-bullet {
@@ -168,7 +171,7 @@
 }
 
 .main .main_intro .intro_box .intro_img {
-  width: 60%;
+  width: 50%;
   height: 800px;
   background: url(../img/pexels-maria-orlova-4947752.jpg);
   background-size: cover;
@@ -186,6 +189,7 @@
 
 .main .main_intro .intro_box .intro_desc {
   padding: 30px 60px;
+  width: 50%;
 }
 
 .main .main_intro .intro_box .intro_desc h3 {
@@ -206,6 +210,10 @@
 .main .main_intro .intro_box .intro_desc p {
   width: 100%;
   line-height: 180%;
+}
+.main .main_intro .intro_box .intro_desc strong {
+  color: rgb(191, 178, 2);
+  display: inline;
 }
 
 .main_cont {
@@ -271,10 +279,38 @@
   color: #fff;
 }
 
-.main_cont .swiper-slide .main_cont_prd .main_cont_prd_img {
+.main_cont .swiper-slide:nth-of-type(1) .main_cont_prd .main_cont_prd_img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/KakaoTalk_20210601_161404305.png) center center;
+  background-size: cover;
+  display: block;
+}
+.main_cont .swiper-slide:nth-of-type(2) .main_cont_prd .main_cont_prd_img {
   width: 100%;
   height: 100%;
   background: url(../img/KakaoTalk_20210601_161404305_02.png) center center;
+  background-size: cover;
+  display: block;
+}
+.main_cont .swiper-slide:nth-of-type(3) .main_cont_prd .main_cont_prd_img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/KakaoTalk_20210601_161404305_03.png) center center;
+  background-size: cover;
+  display: block;
+}
+.main_cont .swiper-slide:nth-of-type(4) .main_cont_prd .main_cont_prd_img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/KakaoTalk_20210601_161404305_04.png) center center;
+  background-size: cover;
+  display: block;
+}
+.main_cont .swiper-slide:nth-of-type(5) .main_cont_prd .main_cont_prd_img {
+  width: 100%;
+  height: 100%;
+  background: url(../img/KakaoTalk_20210601_161404305_05.png) center center;
   background-size: cover;
   display: block;
 }
@@ -399,11 +435,25 @@
   font-weight: 700;
   cursor: pointer;
 }
-.review .review_menu ul li .review_img {
+.review .review_menu ul li:nth-of-type(1) .review_img {
   display: block;
   width: 180px;
   height: 180px;
-  background: url(../img/KakaoTalk_20210622_153204196_18.jpg) center center;
+  background: url(../img/4.jpg) center center;
+  background-size: cover;
+}
+.review .review_menu ul li:nth-of-type(2) .review_img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  background: url(../img/KakaoTalk_20210622_153204196.jpg) center center;
+  background-size: cover;
+}
+.review .review_menu ul li:nth-of-type(3) .review_img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  background: url(../img/7.jpg) center center;
   background-size: cover;
 }
 
@@ -572,22 +622,22 @@
 }
 
 .service .service_menu .service_menu_list li:nth-of-type(1) span {
-  background: url(../img/pexels-maria-orlova-4947752.jpg) center center;
+  background: url(../img/KakaoTalk_20210719_145108094_04.jpg) center center;
   background-size: cover;
 }
 
 .service .service_menu .service_menu_list li:nth-of-type(2) span {
-  background: url(../img/pexels-photo-6400791.jpeg) center center;
+  background: url(../img/KakaoTalk_20210719_145108094_05.jpg) center center;
   background-size: cover;
 }
 
 .service .service_menu .service_menu_list li:nth-of-type(3) span {
-  background: url(../img/robert-gomez-YZ0WDjg4EFg-unsplash.jpg) center center;
+  background: url(../img/KakaoTalk_20210719_145108094_03.jpg) center center;
   background-size: cover;
 }
 
 .service .service_menu .service_menu_list li:nth-of-type(4) span {
-  background: url(../img/angelo-pantazis-SKKG0gSb4vM-unsplash.jpg) center center;
+  background: url(../img/KakaoTalk_20210719_145108094_02.jpg) center center;
   background-size: cover;
 }
 

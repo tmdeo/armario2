@@ -10,9 +10,9 @@ function Service() {
       <Layout>
         <Header />
         <section id="service ramb">
-          <div class="service">
-            <div class="service_title">
-              <div class="inner">
+          <div className="service">
+            <div className="service_title">
+              <div className="inner">
                 <h2>
                   ARMARIO
                   <br />
@@ -20,63 +20,58 @@ function Service() {
                 </h2>
               </div>
             </div>
-            <div class="service_menu">
-              <div class="inner">
-                <div class="service_menu_title">
-                  <h3>서비스</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint, repudiandae impedit. Deserunt dolores fuga pariatur
-                    doloremque
-                  </p>
-                  <br />
-                  <p>
-                    autem? Deleniti, quos molestias amet exercitationem tempore
-                    deserunt recusandae lab
+            <div className="service_menu">
+              <div className="inner">
+                <div className="service_menu_title">
+                  <h3>Service</h3>
+                  <p className="maru">
+                    합리적인 금액에 좋은 품질로 <br />
+                    소비자에게 합리적인 가치를 전달합니다.
                   </p>
                 </div>
-                <ul class="service_menu_list">
+                <ul className="service_menu_list">
                   <li>
                     <span></span>
-                    <div class="sml_txt">
-                      <h4>서비스1</h4>
-                      <p class="maru">
-                        보다 더 쉽게
-                        <br />
-                        손이 가는 옷이 되도록.
+                    <div className="sml_txt">
+                      <h4>맞춤정장</h4>
+                      <p className="maru">
+                        <p>
+                          고객님의 신체를 채촌한 후 <br />
+                          체형에 맞게 한 사람을 위한 정장을 제작합니다.
+                        </p>
                       </p>
                     </div>
                   </li>
                   <li>
                     <span></span>
-                    <div class="sml_txt">
-                      <h4>서비스2</h4>
-                      <p class="maru">
-                        보다 더 쉽게
+                    <div className="sml_txt">
+                      <h4 className="maru">맞춤셔츠</h4>
+                      <p className="maru">
+                        다양한 종류의 셔츠원단 선택과
                         <br />
-                        손이 가는 옷이 되도록.
+                        채촌 후 제작이 진행됩니다.
                       </p>
                     </div>
                   </li>
                   <li>
                     <span></span>
-                    <div class="sml_txt">
-                      <h4>서비스3</h4>
-                      <p class="maru">
-                        보다 더 쉽게
+                    <div className="sml_txt">
+                      <h4 className="maru">촬영용 대여복</h4>
+                      <p className="maru">
+                        웨딩촬영시 필요한 다양한 색감과
                         <br />
-                        손이 가는 옷이 되도록.
+                        패턴의 수트가 준비되어 있습니다.
                       </p>
                     </div>
                   </li>
                   <li>
                     <span></span>
-                    <div class="sml_txt">
-                      <h4>서비스4</h4>
-                      <p class="maru">
-                        보다 더 쉽게
+                    <div className="sml_txt">
+                      <h4 className="maru">수제화</h4>
+                      <p className="maru">
+                        아르마리오만의 노하우와 스타일로
                         <br />
-                        손이 가는 옷이 되도록.
+                        만들어진 편안한 수제화가 제작 가능합니다.
                       </p>
                     </div>
                   </li>

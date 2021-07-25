@@ -34,29 +34,21 @@ function Main() {
               >
                 <SwiperSlide>
                   <div className={cn("inner", "slideinner")}>
-                    <h2>"고객님 슈트패브릭 어떠셨나요?"</h2>
-                    <p>
-                      재구매 고객님께 10% 할인권 증정 이벤트 <br />
-                      기간:21.07.02~21.07.02
-                    </p>
+                    <h2>"특별한 순간</h2>
+                    <h2>아르마리오"</h2>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className={cn("inner", "slideinner")}>
-                    <h2>"고객님 슈트패브릭 어떠셨나요?"</h2>
-                    <p>
-                      재구매 고객님께 10% 할인권 증정 이벤트 <br />
-                      기간:21.07.02~21.07.02
-                    </p>
+                    <h2 className="h2tag">REVIEW MAKETH GIFT</h2>
+
+                    <p>양식에 맞게 리뷰작성시 맞춤 셔츠, 넥타이 증정</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className={cn("inner", "slideinner")}>
-                    <h2>"고객님 슈트패브릭 어떠셨나요?"</h2>
-                    <p>
-                      재구매 고객님께 10% 할인권 증정 이벤트 <br />
-                      기간:21.07.02~21.07.02
-                    </p>
+                    <h2>맞춤예복 계약시</h2>
+                    <h2>촬영용 대여복 무료</h2>
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -68,37 +60,37 @@ function Main() {
                 <h2 className="ramb">ARMARIO</h2>
                 <div className="intro_box">
                   <div className="intro_img">
-                    <span className="ramb">BALANCED JACKET</span>
-                    <span className="ramb">:LIGHT&PACKABLE</span>
+                    <span className="ramb">BALANCED</span>
+                    <span className="ramb">:SUIT</span>
                   </div>
                   <div className="intro_desc">
                     <h3 className="ramb">About us</h3>
                     <span>
-                      보다 더 쉽게
+                      '전통'과 '트렌드'를 담은 슈트
                       <br />
-                      손이 가는 옷이 되도록,
+                      전통과 트렌드를 담습니다.
                     </span>
                     <span className="lastspan">
-                      불편함은 덜고 '일상'을 담다.
+                      균형과 진정성을 생각합니다.
                     </span>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Commodi, fugiat ipsa animi possimus expedita suscipit
-                      quasi dignissimos mollitia recusandae tenetur beatae
-                      quisquam nulla fugit similique rerum laboriosam a unde
-                      nisi? Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Commodi, fugiat ipsa animi possimus expedita
-                      suscipit quasi dignissimos mollitia recusandae tenetur
-                      beatae quisquam nulla fugit similique rerum laboriosam a
-                      unde nisi? Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Commodi, fugiat ipsa animi possimus
-                      expedita suscipit quasi dignissimos mollitia recusandae
-                      tenetur beatae quisquam nulla fugit similique rerum
-                      laboriosam a unde nisi? Lorem ipsum dolor sit amet
-                      consectetur adipisicing elit. Commodi, fugiat ipsa animi
-                      possimus expedita suscipit quasi dignissimos mollitia
-                      recusandae tenetur beatae quisquam nulla fugit similique
-                      rerum laboriosam a unde nisi?
+                      <strong>'아르마리오'</strong>
+                      에서 만들어지는
+                      <br /> 모든 정장은 직영 공방에서 제작이 이루어지며
+                      <br />
+                      정품 원단과 최고급 부자재를 사용하여 제작이 됩니다. VIP급,
+                      <br />
+                      슐레인 급 등 출처를 알 수 없는 원단은 고객님께 권하지도
+                      <br />
+                      취급을 하지도 않음을 약속합니다. 남성의 의복 중 정장은
+                      <br />
+                      약속을 하고 역사에 담기는 옷입니다. 그래서 트렌드를 완전히
+                      <br />
+                      무시할 수는 없지만 기본에 충실한 옷을 만들려 노력하고
+                      <br />
+                      있습니다. 정성과 진심이 담긴 옷을 만들기 위해
+                      <br />
+                      노력하겠습니다.
                     </p>
                   </div>
                 </div>
@@ -108,22 +100,17 @@ function Main() {
             <div className="main_cont ramb">
               <div className="inner ramb">
                 <div className="main_cont_img">
-                  <span>BALANCED SERIES</span>
+                  <span>SIMPLE</span>
                 </div>
                 <div className="main_cont_desc">
                   <h3>
-                    스타일과 편안함의
+                    단순함은 우아함의 진정한
                     <br />
-                    발란스
+                    핵심
                   </h3>
                   <p className="maru">
-                    당연한듯 포기해야했던 부분에 대한 고민에서 시작된
-                    발란스라인은 스타일과 편안함 두가지의 간극을 찾아내어
-                    만들어졌습니다.
-                  </p>
-                  <p className="maru">
-                    누구나, 언제 어디서나 어떤코디에서도 가장 보편적인 핏과
-                    착용감을 제공합니다.
+                    아르마리오는 편안하고 우아한 옷을 제작합니다.
+                    <br /> 옷장 속에 쉽게 손이 갈 수 있도록
                   </p>
                 </div>
                 <Swiper
@@ -151,26 +138,6 @@ function Main() {
                   }}
                   className="mySwiper2"
                 >
-                  <SwiperSlide>
-                    <div className="main_cont_prd">
-                      <span className="main_cont_prd_img"></span>
-                      <span className="main_cont_prd_desc">
-                        WindTche 3COLOR SUIT
-                        <br />
-                        219,000원
-                      </span>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="main_cont_prd">
-                      <span className="main_cont_prd_img"></span>
-                      <span className="main_cont_prd_desc">
-                        WindTche 3COLOR SUIT
-                        <br />
-                        219,000원
-                      </span>
-                    </div>
-                  </SwiperSlide>
                   <SwiperSlide>
                     <div className="main_cont_prd">
                       <span className="main_cont_prd_img"></span>
