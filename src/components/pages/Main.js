@@ -20,7 +20,7 @@ function Main() {
         <Header />
         <section id="main">
           <div className="main">
-            <div className="main_head">
+            <div className="main_head maru">
               <Swiper
                 pagination={{
                   clickable: true,
@@ -129,7 +129,7 @@ function Main() {
                     },
                   }}
                   slidesPerView={3}
-                  // spaceBetween={50}
+                  spaceBetween={50}
                   navigation={true}
                   pagination={{ clickable: true }}
                   autoplay={{

@@ -24,10 +24,22 @@ const listContext = [
     desc: "2021.07.01",
     desc2: "내용3",
   },
+  {
+    id: "4",
+    title: "title4",
+    desc: "2021.08.01",
+    desc2: "내용3",
+  },
+  {
+    id: "5",
+    title: "title5",
+    desc: "2021.09.01",
+    desc2: "내용3",
+  },
 ];
-function Context({ id, title, desc, desc2 }) {
+function Context({ id, title, desc, desc2, img }) {
   return (
-    <li id={id}>
+    <li id={id} className="maru">
       <span className="review_img"></span>
       <span className="review_list">
         <strong>{title}</strong>
@@ -37,7 +49,7 @@ function Context({ id, title, desc, desc2 }) {
         <Link
           to={{
             pathname: "/modal",
-            state: { id, title, desc, desc2 },
+            state: { id, title, desc, desc2, img },
           }}
         >
           리뷰보기
@@ -78,6 +90,7 @@ class Modal extends React.Component {
                           title={txt.title}
                           desc={txt.desc}
                           desc2={txt.desc2}
+                          img={txt.img}
                         />
                       ))}
                     </ul>
@@ -92,15 +105,15 @@ class Modal extends React.Component {
                     <div className="popup_left">
                       <img
                         style={{ height: "100%" }}
-                        src={location.state.image}
+                        src={location.state.img}
                         alt={location.state.id}
                       />
                     </div>
 
-                    <div className="popup_right" id={location.state.id}>
+                    <div className="popup_right maru" id={location.state.id}>
                       <h4>{location.state.title}</h4>
-                      <span className="maru">{location.state.desc}</span>
-                      <p className="maru">{location.state.desc2}</p>
+                      <span>{location.state.desc}</span>
+                      <p>{location.state.desc2}</p>
                       <Link to={{ pathname: "/review" }}>
                         <span className="close"></span>
                       </Link>
